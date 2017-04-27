@@ -24,7 +24,7 @@ The goals / steps of this project are the following:
 [test_image3]: ./test/test3.jpg "Traffic Sign 5"
 [test_image4]: ./test/test4.jpg "Traffic Sign 4"
 [test_image5]: ./test/test5.jpg "Traffic Sign 5"
-[top_5_softmax]: ./test/top_5_softmax.png "top 5 softmax"
+[top_5_softmax]: ./write_up/top_5_softmax.png "top 5 softmax"
 
 
 ## Rubric Points
