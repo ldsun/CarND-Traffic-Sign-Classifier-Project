@@ -16,8 +16,8 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [survey_samples]: ./write_up/survey_samples.png "Survey samples"
-[before_grayscaling]: ./write_up/before_grayscaling.png "before grayscaling"
-[after_grayscaling]: ./write_up/after_grayscaling.png "after grayscaling"
+[before_preprocessing]: ./write_up/before_preprocessing.png "before grayscaling"
+[after_preprocessing]: ./write_up/after_preprocessing.png "after grayscaling"
 [augment_image]: ./write_up/augment_image.png "augment image"
 [test_image1]: ./test/test1.jpg "Right-of-way at the next intersection"
 [test_image2]: ./test/test2.jpg "Traffic Sign 4"
