@@ -24,7 +24,7 @@ The goals / steps of this project are the following:
 [test_image3]: ./test/test3.jpg "Traffic Sign 5"
 [test_image4]: ./test/test4.jpg "Traffic Sign 4"
 [test_image5]: ./test/test5.jpg "Traffic Sign 5"
-[top_5_softmax]: ./test/test5.jpg "top 5 softmax"
+[top_5_softmax]: ./test/top_5_softmax.png "top 5 softmax"
 
 
 ## Rubric Points
@@ -129,7 +129,7 @@ Here are five German traffic signs that I found on the web:
 ![test iamge 1][test_image1] ![test iamge 2][test_image2] ![test iamge 3][test_image3] 
 ![test iamge 4][test_image4] ![test iamge 5][test_image5]
 
-The first image might be difficult to classify because if we convert image to grayscale, it is very similiar to sign 17, "No entry". That's why in the test, the model failed on this one. 
+The last image "Keep right" might be difficult to classify because if we convert image to grayscale, it is very similiar to sign 17, "No entry". That's why in the test, the model failed on this one. 
 
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
