@@ -15,11 +15,10 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[survey_samples]: ./examples/visualization.jpg "Visualization"
-[before_grayscaling]: ./examples/grayscale.jpg "Grayscaling"
-[after_grayscaling]: ./examples/random_noise.jpg "Random Noise"
-[original_image]: ./examples/placeholder.png "Traffic Sign 1"
-[augmented_image]: ./examples/placeholder.png "Traffic Sign 2"
+[survey_samples]: ./write_up/survey_samples.png "Survey samples"
+[before_grayscaling]: ./write_up/before_grayscaling.png "before grayscaling"
+[after_grayscaling]: ./write_up/after_grayscaling.png "after grayscaling"
+[augment_image]: ./write_up/augment_image.png "augment image"
 [test_image1]: ./test/test1.jpg "Right-of-way at the next intersection"
 [test_image2]: ./test/test2.jpg "Traffic Sign 4"
 [test_image3]: ./test/test3.jpg "Traffic Sign 5"
@@ -43,7 +42,7 @@ The goals / steps of this project are the following:
 
 ####2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. I plotted all the classes in the training set, and I also plot a bar chart to display the distribution. 
+Here is an exploratory visualization of the data set. I plotted all the classes in the training set, and I also plotted a bar chart to display the distribution. 
 
 ![survey samples][survey_samples]
 
@@ -53,7 +52,7 @@ Here is an exploratory visualization of the data set. I plotted all the classes 
 
 Here are the steps that I preprocessed the image data. 
 
-First, convert the image to grayscale so that it becomes 1 channel. This reduce the learning work-load, and for such task, there's no difference between color image and gray scale image.
+First, convert the image to grayscale so that it becomes one channel. This reduces the learning work-load, and for such task, usually there's no difference between color image and gray scale image.
 
 Second I normalized the data so that the number during training won't get too large. 
 
@@ -66,7 +65,7 @@ After preprocessing:
 ![after preprocessing][after_preprocessing]
 
 
-From the training set distribution bar chart, we can see that some image has more samples, when some only has a few. So different images get different chance of training. To make sure all images get enough training, I generated additional data.  
+From the training set distribution bar chart, we can see that some image has more samples, while some only has a few. So different images get different chance of training. To make sure all images get enough training, I generated additional data.  
 
 To add more data to the the data set, I applied below transformation on original data:
 1) scaling
@@ -75,11 +74,7 @@ To add more data to the the data set, I applied below transformation on original
 
 Here is an example of an original image and an augmented image:
 
-![original image][original_image]
-
-Augmented image:
-
-![augmented image][augmented_image]
+![augment image][augment_image]
 
 The difference between the original data set and the augmented data set:
 Origial data set: 
